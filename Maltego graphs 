@@ -1,0 +1,19 @@
+
+
+RECONNAISSANCE AND FOOTPRINTING
+
+
+Maltego: Installation, Updates, and Email Reconnaissance
+
+1. Overview
+This section documents the setup of Maltego and its application for Open Source Intelligence (OSINT) reconnaissance, specifically focusing on domain analysis and email discovery.
+
+2. Installing Maltego
+
+3. Finding Email Addresses from a Domain
+
+​a) Open Maltego and click New Graph to create a blank workspace.
+​b) Drag the Domain entity from the Entity Palette onto the graph canvas.
+​c) Update the domain node's value to your target domain (e.g networkwalks.com).
+​d) Right-click the domain entity, select Run Transforms, and choose the relevant machine or transform (such as Email Address Footprint).
+​e) Review and filter the resulting graph nodes to extract and document the email addresses linked to the target domain.
